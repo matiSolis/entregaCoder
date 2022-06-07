@@ -3,6 +3,22 @@
     padding: 0;
 }
 
+.boton{
+    margin: 80px;
+    pad: 5px;
+    transform: skew(15deg);
+    transition: 2s;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div3 button:hover{
+    transform: scale(2);
+}
+
 .divImg {
     display: flex;
     align-items: center;
