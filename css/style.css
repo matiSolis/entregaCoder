@@ -7,11 +7,15 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 
 .divImg img {
     max-width: 20vw;
     max-height: 20vh;
+    animation-name: girando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .estiloInicial {
@@ -25,14 +29,75 @@
     max-width: 550px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .titulo1 {
     color: blue;
 }
 
+.titulo2{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,60,1) 100%);
+border-radius: 5px;
+animation-duration: 3s;
+}
+
 .texto1 {
     font-style: italic;
     font-size: small;
-    color: #00fff3;
+}
+
+@keyframes girando {
+    0%{
+        transform: rotate(0deg);
+    }
+    6.25%{
+        transform: rotate(22.5deg);
+    }
+    12.5%{
+        transform: rotate(45deg);
+    }
+    18.75%{
+        transform: rotate(67.5deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    31.25%{
+        transform: rotate(112.5deg);
+    }
+    37.5%{
+        transform: rotate(135deg);
+    }
+    43.75%{
+        transform: rotate(157.5deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    56.25%{
+        transform: rotate(202.5deg);
+    }
+    62.5%{
+        transform: rotate(225deg);
+    }
+    68.75%{
+        transform: rotate(247.5deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    81.25%{
+        transform: rotate(292.5deg);
+    }
+    87.5%{
+        transform: rotate(315deg);
+    }
+    93.75%{
+        transform: rotate(337.5deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
