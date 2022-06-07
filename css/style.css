@@ -1,0 +1,18 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.estiloInicial{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,212,88,1) 27%, rgba(184,188,78,1) 66%, rgba(252,70,107,1) 100%);
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo1{
+    color: blue;
+}
