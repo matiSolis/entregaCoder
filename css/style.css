@@ -3,20 +3,28 @@
     padding: 0;
 }
 
-.boton{
+.boton {
     margin: 80px;
     pad: 5px;
     transform: skew(15deg);
     transition: 2s;
 }
 
-.div3{
+.div3 {
     display: flex;
     justify-content: space-around;
 }
 
-.div3 button:hover{
+.div3 button:hover {
     transform: scale(2);
+}
+
+.div3 button {
+    background: rgb(251, 63, 203);
+    background: radial-gradient(circle, rgba(251, 63, 203, 1) 4%, rgba(212, 206, 88, 1) 27%, rgba(184, 188, 78, 1) 67%, rgba(216, 70, 252, 1) 100%);
+    ;
+    border-radius: 15px;
+    border: 0;
 }
 
 .divImg {
@@ -52,11 +60,11 @@
     color: blue;
 }
 
-.titulo2{
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,60,1) 100%);
-border-radius: 5px;
-animation-duration: 3s;
+.titulo2 {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 45, 60, 1) 100%);
+    border-radius: 5px;
+    animation-duration: 3s;
 }
 
 .texto1 {
@@ -65,55 +73,71 @@ animation-duration: 3s;
 }
 
 @keyframes girando {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    6.25%{
+
+    6.25% {
         transform: rotate(22.5deg);
     }
-    12.5%{
+
+    12.5% {
         transform: rotate(45deg);
     }
-    18.75%{
+
+    18.75% {
         transform: rotate(67.5deg);
     }
-    25%{
+
+    25% {
         transform: rotate(90deg);
     }
-    31.25%{
+
+    31.25% {
         transform: rotate(112.5deg);
     }
-    37.5%{
+
+    37.5% {
         transform: rotate(135deg);
     }
-    43.75%{
+
+    43.75% {
         transform: rotate(157.5deg);
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
     }
-    56.25%{
+
+    56.25% {
         transform: rotate(202.5deg);
     }
-    62.5%{
+
+    62.5% {
         transform: rotate(225deg);
     }
-    68.75%{
+
+    68.75% {
         transform: rotate(247.5deg);
     }
-    75%{
+
+    75% {
         transform: rotate(270deg);
     }
-    81.25%{
+
+    81.25% {
         transform: rotate(292.5deg);
     }
-    87.5%{
+
+    87.5% {
         transform: rotate(315deg);
     }
-    93.75%{
+
+    93.75% {
         transform: rotate(337.5deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
