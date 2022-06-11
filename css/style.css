@@ -11,6 +11,7 @@
 }
 
 .div3 {
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
 }
@@ -57,8 +58,14 @@
 }
 
 .separador {
+    margin-top: 15px;
     height: 20px;
     background-color: blueviolet;
+}
+
+.subtitulo {
+    margin-top: 55px;
+    text-align: center;
 }
 
 .titulo1 {
