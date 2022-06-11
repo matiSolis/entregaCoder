@@ -56,6 +56,11 @@
     margin-top: 100px;
 }
 
+.separador {
+    height: 20px;
+    background-color: blueviolet;
+}
+
 .titulo1 {
     color: blue;
 }
@@ -65,6 +70,13 @@
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 45, 60, 1) 100%);
     border-radius: 5px;
     animation-duration: 3s;
+}
+
+.texto {
+    margin: 25px;
+    padding: 15px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .texto1 {
